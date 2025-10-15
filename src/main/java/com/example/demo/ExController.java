@@ -48,7 +48,38 @@ public class ExController {
     	
 //  http://localhost:8080/ex327
     @GetMapping("/ex327")
-    public String getEx327() {
+    public boolean getEx327() {
     	return exService.ex327();
     }
+    
+//  http://localhost:8080/ex328
+    @GetMapping("/ex328")
+    public boolean getEx328() {
+    	return exService.ex328();
+    }
+    
+//  http://localhost:8080/ex331
+    @GetMapping("/ex331")
+    public boolean getEx331() {
+    	return exService.ex331();
+    }
+    
+//  http://localhost:8080/ex332
+    @GetMapping("/ex332")
+    public boolean getEx332() {
+    	return exService.ex332();
+    }
+    
+//  http://localhost:8080/ex328
+    @GetMapping("/ex333")
+    public boolean getEx333() {
+    	return exService.ex333();
+    }
+    
+//  http://localhost:8080/ex328
+    @GetMapping("/ex334")
+    public boolean getEx334() {
+    	return exService.ex334();
+    }
+
 }
