@@ -1,8 +1,10 @@
-package com.example.demo;
+package com.jgg.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.jgg.service.ExService;
 
 @RestController  // 컨트롤러 선언
 public class ExController {
@@ -68,18 +70,6 @@ public class ExController {
     @GetMapping("/ex332")
     public boolean getEx332() {
     	return exService.ex332();
-    }
-    
-//  http://localhost:8080/ex328
-    @GetMapping("/ex333")
-    public boolean getEx333() {
-    	return exService.ex333();
-    }
-    
-//  http://localhost:8080/ex328
-    @GetMapping("/ex334")
-    public boolean getEx334() {
-    	return exService.ex334();
     }
 
 }

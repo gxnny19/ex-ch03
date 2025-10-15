@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.jgg.service;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -173,6 +173,7 @@ public class ExService {
 		list.add("void");
 		
 		list.stream().forEach(str -> System.out.println(str));
+		return true;
 	}
 
 }
