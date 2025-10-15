@@ -1,10 +1,10 @@
-package com.jgg.controller;
+package com.example.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jgg.service.ExService;
+import com.example.demo.service.ExService;
 
 @RestController  // 컨트롤러 선언
 public class ExController {

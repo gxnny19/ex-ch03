@@ -1,4 +1,4 @@
-package com.jgg.service;
+package com.example.demo.service;
 
 import java.util.ArrayList;
 import java.util.Comparator;
