@@ -1,6 +1,7 @@
 package com.example.demo.service;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
@@ -165,15 +166,26 @@ public class ExService {
 	}
 
 //		스트림 API
-	public boolean ex332() {
-		List list = new ArrayList<String>();
+	public String ex332() {
+	    List<String> list = new ArrayList<>();
 
-		list.add("public");
-		list.add("static");
-		list.add("void");
-		
-		list.stream().forEach(str -> System.out.println(str));
-		return true;
+	    list.add("public");
+	    list.add("static");
+	    list.add("void");
+
+	    return String.join(", ", list);
 	}
 
-}
+	public String ex333() {
+		Integer[] integerArray = new Integer[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		List<Integer> list = Arrays.asList(integerArray);
+		
+		List evenList = new ArrayList<Integer>();
+		
+		for (int i = 0; i < list.size(); i++) {
+			
+		}
+		return null;
+	
+
+}}

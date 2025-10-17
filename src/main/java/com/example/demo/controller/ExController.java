@@ -68,8 +68,14 @@ public class ExController {
     
 //  http://localhost:8080/ex332
     @GetMapping("/ex332")
-    public boolean getEx332() {
+    public String getEx332() {
     	return exService.ex332();
+    }
+    
+//  http://localhost:8080/ex333
+    @GetMapping("/ex333")
+    public String getEx333() {
+    	return exService.ex333();
     }
 
 }
